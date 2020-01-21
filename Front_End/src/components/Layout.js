@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Navbar from './Navbar';
+
 import Simple from './Simple';
 
 function Layout(props) {
