@@ -8,7 +8,7 @@ If heroku serve does not work, follow this code:
 
 1. Go to Back_End/src/
 2. Type in terminal direction: git add .
-3. Git commit -m Try""
+3. Git commit -m "Try"
 4. Git push heroku master
 5. Heroku open. 
 
