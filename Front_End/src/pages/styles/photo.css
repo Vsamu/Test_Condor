@@ -1,0 +1,20 @@
+.label {
+    color: white;
+    padding: 8px;
+  }
+  
+  .success {background-color: #4CAF50;} /* Green */
+
+  input[type=text], select {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .mystyle {  
+    text-align: right;
+  }
