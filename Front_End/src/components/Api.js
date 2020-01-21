@@ -55,7 +55,7 @@ class Api { //Class for consults API's
       return response; 
   }
 
-
+  //Method to delete photo fo potho list
   async DeletImage(Id) {
     const reqOpts = {
         headers: {
@@ -72,7 +72,7 @@ class Api { //Class for consults API's
       let response = await resp.json();
       return response; // se supone que aca se manda el dato de URL al API 
   }
-
+//Method POST to insert photo in album
   async UpdateAlbum(id, album) {    
     const reqOpts = {
       headers: {
@@ -89,7 +89,7 @@ class Api { //Class for consults API's
     let response = await resp.json();
     return response;
   }
-  //Method POST to
+  //Method POST to insert Arrays of Albums
   async InTableAl(array) {
     const reqOpts = {
         headers: {
@@ -107,7 +107,7 @@ class Api { //Class for consults API's
 
   }
 
-    //Method GET to request to the other table
+    //Method GET to request to Albums table
     async ReTableAl() {
       const reqOpts = {
           headers: {
@@ -122,7 +122,7 @@ class Api { //Class for consults API's
     }
 
 
-    //Method POST to
+  //Method POST to bring Albums array and print
   async BringAlbum(Album_name) {
     const reqOpts = {
         headers: {

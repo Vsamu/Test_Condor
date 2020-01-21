@@ -3,14 +3,21 @@ import React from "react";
 import "./styles/Badges.css";
 import "./styles/photo.css";
 import Simple from "../components/Simple";
-import confLogo from "../images/badge-header.svg";
 import PhotosList from "../components/PhotosList";
 import Api from "../components/Api";
-import { Link } from "react-router-dom";
 import PhotosListAl from "../components/PhotosListAl";
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import Example from '../components/ListOfAlbum';
+
+
+//This is the principal page where the calls of Api happend and setted of different properties of state
+// The dinamic is as follow: The page do a request to Db, previously fill it, when the user wants to add an image
+// it make a request to Igmur Server (API that allow to store the image and response with a endpoint to render it).
+// it only request one to Igmuer server, after that all the endpoint provied of igmur is stored in our dB.
+//All the action of add, delete or search and photo request and posting data in Db. This Db is in heroku server, and the 
+// calls of Api is in localhost. 
+
 
 class Photos extends React.Component {
   constructor(props) {

@@ -30,7 +30,10 @@ class PhotosListAl extends React.Component {
                             crearalbum = {this.props.addphoto}
                             erase={()=>this.props.obtainId(Descrption.id_photo)}
                             delete = {this.props.deletephoto}
-
+                            //Photo, Name, Date are props of his child.
+                            //prueba receive events of child'button to call here this.handleclick function
+                            //crearalbum, erase and delete are props. crearalbum recive a boolean value to provide a true or false to its child.
+                            //The same happen with delete. And erase send the Id component to his father
                             />
                         </li>
                     )                                

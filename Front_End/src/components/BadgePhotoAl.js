@@ -3,6 +3,9 @@ import React from 'react';
 import './styles/Badge.css';
 import confLogo from '../images/badge-header.svg';
 
+//This is the lowest-level component who provide two action (add and delete) by buttons, that depends of the callback
+//that highest-level component (page) do.
+
 class BadgePhotoAl extends React.Component {
   render() {
     return (

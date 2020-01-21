@@ -6,6 +6,8 @@ import Image from 'react-bootstrap/Image'
 import logo from '../images/badge-header.svg';
 import BadgePhoto from './BadgePhoto'
 
+
+//this one is also a medium-leve component who recive information using props of his child (BadgePhoto)
 class PhotosList extends React.Component {
     render() {
         return(

@@ -1,7 +1,8 @@
 import React from 'react';
 import { ListGroup, ListGroupItem } from 'reactstrap';
-import { Link } from 'react-router-dom';
 
+
+//This is the medium-leve component who call the BadgePhoto component to provide information and image
 const Example = (props) => {
   return (               
     <ListGroup>

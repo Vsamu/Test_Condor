@@ -1,7 +1,7 @@
 import React from 'react'
 import {Navbar, NavDropdown, Nav, Form, FormControl, Button} from 'react-bootstrap';
 
-
+// a bootstrap navbar for provide a better view
 class Simple extends React.Component {   
     render() {
         return <Navbar bg="light" expand="lg">

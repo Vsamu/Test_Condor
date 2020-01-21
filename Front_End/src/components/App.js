@@ -6,7 +6,7 @@ import Photos from '../pages/Photos';
 import Album from '../pages/Album'
 import NotFound from '../pages/NotFound';
 
-
+// Create certain routes for the application
 function App() {
   return (
     <BrowserRouter>      
