@@ -5,7 +5,9 @@ album and take specific photos to add in your album.*
 
 
 Due to do a git clone, you must install de moudelos of the project for Back_End directory and Front_End. For each one you must go to the
-follows directory:*
+follows directory:
+
+
 *For BackEnd
   /Back_End
   And run in your terminal:
