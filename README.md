@@ -1,7 +1,7 @@
 # Test_Condor 
 
 This project consist to show a list of photos in a web page. You can Add image, delete and search. Also this proyect allow to you to create
-album and take specific photos to add in your album.
+album and take specific photos to add in your album.*
 
 
 Due to do a git clone, you must install de moudelos of the project for Back_End directory and Front_End. For each one you must go to the
